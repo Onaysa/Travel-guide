@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>User Feedback</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/form.css">
+
+</head>
+
+<body>
+    <div class="hero"> 
+
+        <nav>
+            <h1 class="logo">Travel</h1>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Africa.html">Africa</a></li>
+                <li><a href="Asia.html">Asia</a></li>
+                <li><a href="Europe.html">Europe</a></li>
+                <li><a href="NorthAmerica.html">North America</a></li>
+                <li><a href="form.html">User Feedback</a></li>
+
+            </ul>
+    </nav>
+
+    </div>
+    <div class="wrapper">
+
+        <h1>User Feedback</h1>
+        <form>
+            <fieldset>
+                
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required><br><br>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="satisfaction">Satisfaction Level (1-5):</label>
+                <select id="satisfaction" name="satisfaction">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select><br><br>
+
+                <label for="feedback">Your Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="5" cols="33"></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
